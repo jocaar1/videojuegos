@@ -1,0 +1,19 @@
+.columna {
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+  }
+  
+  .fila::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .mss{
+
+    width: 100%;
+    height: auto;
+}
